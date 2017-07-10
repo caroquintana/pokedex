@@ -49,6 +49,15 @@ table {
 *{
 	font-family: 'Roboto', sans-serif;
 }
+body{
+	background-image: url(../img/IMG_147607.png);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+
+
+}
 .img-responsive {
     width: 100%;
     height: auto;
@@ -57,7 +66,7 @@ table {
 .btn, .btn-large {
     text-decoration: none;
     color: #fff;
-    background-color: lavender;
+    background-color: #fff;
     text-align: center;
     letter-spacing: .5px;
     transition: .2s ease-out;
@@ -65,8 +74,11 @@ table {
     height: 133px;
     margin: 5px;
     max-width: 169px;
+    border: 2px solid #F93D32;
 }
-
+a.waves-effect.waves-light.btn:hover{
+	background-color: #FDCC2F;
+}
 .modal .modal-content {
     text-align: center;
 }
@@ -100,11 +112,43 @@ p{
     font-weight: 500;
 }
 h1.titulo {
-    font-size: 29px;
+    font-size: 45px;
     margin: 18px;
     text-align: center;
-    color: crimson;
+    color: #FDCC2F;
+ 
 }
+h1.titulo
+{
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #0F70A9,
+         0px -1px 0px #0F70A9,
+         1px -1px 0px #0F70A9,
+        -1px  0px 0px #0F70A9,
+         1px  0px 0px #0F70A9,
+        -1px  1px 0px #0F70A9,
+         0px  1px 0px #0F70A9,
+         1px  1px 0px #0F70A9,
+        /* second layer at 2px */
+        -2px -2px 0px #0F70A9,
+        -1px -2px 0px #0F70A9,
+         0px -2px 0px #0F70A9,
+         1px -2px 0px #0F70A9,
+         2px -2px 0px #0F70A9,
+         2px -1px 0px #0F70A9,
+         2px  0px 0px #0F70A9,
+         2px  1px 0px #0F70A9,
+         2px  2px 0px #0F70A9,
+         1px  2px 0px #0F70A9,
+         0px  2px 0px #0F70A9,
+        -1px  2px 0px #0F70A9,
+        -2px  2px 0px #0F70A9,
+        -2px  1px 0px #0F70A9,
+        -2px  0px 0px #0F70A9,
+        -2px -1px 0px #0F70A9;
+}
+
 img{
 	max-width: 120px;
 	min-width: 120px;
