@@ -64,6 +64,7 @@ table {
     cursor: pointer;
     height: 133px;
     margin: 5px;
+    max-width: 169px;
 }
 
 .modal .modal-content {
@@ -103,4 +104,8 @@ h1.titulo {
     margin: 18px;
     text-align: center;
     color: crimson;
+}
+img{
+	max-width: 120px;
+	min-width: 120px;
 }

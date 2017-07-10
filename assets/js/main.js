@@ -7,7 +7,7 @@ $(document).ready(function() {
     data: {"limit":"811"},
     })
     .done(function(response) {
-        for(var i=1; i <= 50; i++){ //solo traigo 50 pokemones para que no colapse el github
+        for(var i=1; i <= 80; i++){ //solo traigo 100 pokemones para que no colapse el github
           //aquí inserto en el div las imagenes de los pokemones aplicandole una clase de materialize
         $('#todospokemones').append("<a class='waves-effect waves-light btn' href='#modal1'><img id='"+i+"' src='http://pokeapi.co/media/img/"+i+".png'></a>");
         }
