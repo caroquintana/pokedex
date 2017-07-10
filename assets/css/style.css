@@ -46,6 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+	font-family: 'Roboto', sans-serif;
+}
 .img-responsive {
     width: 100%;
     height: auto;
@@ -60,5 +63,44 @@ table {
     transition: .2s ease-out;
     cursor: pointer;
     height: 133px;
+    margin: 5px;
 }
 
+.modal .modal-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	background-color: salmon;
+	color: #fff;
+}
+p{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	text-transform:capitalize;
+	background-color: bisque;
+
+}
+.btn-flat {
+    margin: 6px 0;
+    font-family: 'Roboto';
+    background-color: coral;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+}
+h1.titulo {
+    font-size: 29px;
+    margin: 18px;
+    text-align: center;
+    color: crimson;
+}

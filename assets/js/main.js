@@ -22,9 +22,9 @@ $(document).ready(function() {
                 for(var i = 0; i < pokemon.types.length; i++) { // bucle que me trae el tipo del pokemon del json
                     insertarInfo += "<p>" + pokemon.types[i].type.name + "</p>"; //y lo inserta en una etiqueta p
                 }
-                insertarInfo += "<h4>Mide</h4>";
+                insertarInfo += "<h2>Mide</h2>";
                 insertarInfo += "<p>" + pokemon.height + " metros." + "</p>"; //traeme la altura
-                insertarInfo += "<h4>Pesa</h4>";
+                insertarInfo += "<h2>Pesa</h2>";
                 insertarInfo += "<p>" + pokemon.weight + " kilos." + "</p>"; //traeme el peso
                 $('.modal-content').html(insertarInfo); //inserta todo esto en el modal-content
             }, "json");
